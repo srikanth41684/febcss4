@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+
+.offering{
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(
+        to right,
+        red,
+        green,
+        yellow
+    );
+    text-decoration: underline;
+    text-align: center;
+    /* color: aliceblue; */
+}
+
+.home{
+    background-color: rgb(160, 213, 229);
+    border: 3px solid red;
+    text-align: center;
+    width: 55%;
+    border-radius: 6px;
+    margin: 20px;
+    margin-left: 300px;
+}
+
+.first-container{
+    border: 2px solid slateblue;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.first-container p{
+    border: 2px solid green;
+    width: 450px;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(84, 183, 245);
+}
+
+.performer{
+    background: linear-gradient(
+        to right,
+        red,
+        yellow,
+        red
+    );
+    /* padding: 10px; */
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 20px;
+    /* margin: 20px; */
+    text-decoration: underline;
+}
+
+.second-container{
+    border: 2px solid green;
+    background: radial-gradient(
+        blue,
+        skyblue,
+        lightgreen
+    );
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    margin-top: 20px;
+}
+
+.four-boxes{
+    border: 3px solid red;
+    width: 17%;
+    background-color: yellow;
+    text-align: center;
+    /* padding: 10px; */
+    font-size: 20px;
+    text-decoration: underline;
+    color: crimson;
+    border-radius: 10px;
+    padding: 0px 15px 15px 15px;
+}
+
+.heading3{
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.grid-container{
+    border: 1px solid black;
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.grid-box1{
+    background-color: crimson;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.grid-box2{
+    background-color: rgb(65, 121, 9);
+    font-size: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-box3{
+    background-color: skyblue;
+    font-size: 25px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-box4{
+    background-color: blue;
+    font-size: 25px;
+    color: white;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.grid-box5{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.grid-box6{
+    background-color: orange;
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 60px;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.grid-box7{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
